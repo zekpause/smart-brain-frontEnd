@@ -52,7 +52,7 @@ const database = {
 }
 
 app.get('/',(req, res) => {
-    res.send('success') 
+    res.send('working') 
 })
 
 app.post('/signin', signin.handleSignin(bcrypt, db))
